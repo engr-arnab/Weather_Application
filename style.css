@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Roboto", serif;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(17, 25, 38);
+}
+
+.card {
+    max-width: 470px;
+    width: 90%;
+    /* height: 90%; */
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.search {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+
+}
+
+.search input {
+    height: 60px;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    border: none;
+    padding: 0px 30px;
+
+}
+
+.search button img {
+    height: 30px;
+    width: 30px;
+}
+
+.search button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+.weather{
+    display: none;
+}
+
+
+.weather-icon img{
+    height: 200px;
+}
+
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.humidity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.wind{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+
+.humidity-img img{
+    height: 50px;
+}
+
+.wind-img img{
+    height: 100px;
+}
+
+.temp{
+    font-size:80px;
+}
+
+.city{
+    font-size:40px;
+
+}
